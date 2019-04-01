@@ -1,0 +1,46 @@
+body {
+     background-color: rgb(90, 184, 110); 
+    width: 960px;
+    margin: auto;
+}
+
+#topics-input {
+    width: 85%;
+    height: 35px;
+}
+
+#topics-form {
+    margin: 10px 0px;
+}
+
+#add-topics {
+    height: 35px;
+    width: 13%;
+}
+
+.topics-button {
+    margin: 0px 15px 15px 0px;
+    background-color: blanchedalmond
+}
+
+.topics-button:first-child {
+     border-left: 0;
+    padding-left: 0; 
+    margin-left: 0;
+}
+
+#gifContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: space-around; 
+}
+
+.jumbotron {
+    background-color: rgb(31, 224, 224);
+    color: rgb(226, 8, 8);
+}
+
+.imageGif {
+    padding: 20px;
+}
